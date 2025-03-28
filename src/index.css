@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+
+@theme {
+    --font-sans: 'Inter', sans-serif;
+    --color-minty1: #98FBCB;  /* Light Green */
+    --color-minty2: #BFFFED;  /* Pale Mint */
+    --color-minty3: #7FCFA8;  /* Soft Green */
+    --color-minty4: #558B71;  /* Dark Green */
+    
+  }
+  
+  body {
+    @apply font-sans;
+  }
