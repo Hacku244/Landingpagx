@@ -34,7 +34,7 @@ const FAQ = () => {
         <span className="">Common Queries </span>
         <span className="bg-gradient-to-b  from-purple-400 via-violet-400 to-violet-600 text-transparent bg-clip-text">Solved</span>, Quick Answers For You
       </h2>
-      <div className="w-full max-w-xl space-y-4 lg:max-w-4xl">
+      <div className="w-full max-w-xl space-y-4 lg:max-w-3xl">
         {faqs.map((faq, index) => (
           <div
             key={index}
@@ -49,7 +49,7 @@ const FAQ = () => {
   onClick={() => toggleFAQ(index)}
   className="w-full flex justify-between items-center p-4 lg:p-8 focus:outline-none lg:text-left   "
 >
-  <span className="font-semibold text-lg lg:text-2xl">{faq.question}</span>
+  <span className="font-semibold text-lg lg:text-xl">{faq.question}</span>
   <div
     className={`transform transition-transform duration-300 lg:bg-purple-500 lg:rounded-full lg:p-2.5  bg-purple-500 rounded-full p-2  ${
       openIndex === index ? "rotate-180" : "rotate-0"

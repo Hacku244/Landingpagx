@@ -28,7 +28,7 @@ const Testimonial = () => {
     <section className="py-14 px-4 " id="testimonials">
       <div className="text-center mb-10 lg:mb-16 ">
         <h2 className="text-xl  bg-gradient-to-b  from-emerald-400 via-emerald-500 to-emerald-600 text-transparent bg-clip-text font-bold lg:text-2xl">Testimonial</h2>
-        <h1 className="text-4xl font-bold lg:text-5xl mt-2 bg-gradient-to-b  from-emerald-400 via-emerald-500 to-emerald-600 text-transparent bg-clip-text">
+        <h1 className="text-4xl font-bold lg:text-4xl mt-2 bg-gradient-to-b  from-emerald-400 via-emerald-500 to-emerald-600 text-transparent bg-clip-text">
           Customer <span className="  bg-gradient-to-r  from-purple-400 via-emerald-500 to-fuchsia-500 text-transparent bg-clip-text">Experiences</span> With Our Platform
         </h1>
         <p className="text-gray-500 mt-3 max-w-2xl mx-auto lg:max-w-4xl lg:text-lg ">

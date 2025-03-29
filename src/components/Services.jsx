@@ -82,22 +82,26 @@ const Services = () => {
         </div>
       </div>
       {/* 4th Section */}
-      <div className="flex flex-col lg:flex-row items-center justify-between px-6 py-16 max-w-7xl mx-auto mt-16">
+      <div className="flex flex-col lg:flex-row items-center justify-evenly px-6 py-16 max-w-7xl mx-auto mt-16">
         {/* Left Content */}
         <div className="flex flex-col items-center lg:items-start text-center lg:text-left max-w-xl">
-          <p className="bg-gradient-to-b  from-purple-400 via-violet-400 to-violet-600 text-gray-100 rounded-2xl py-1 px-4 mb-6">
+          <p className="bg-gradient-to-b  from-purple-400 via-violet-400 to-violet-600 text-gray-100 rounded-2xl py-1
+           px-4 mb-6 lg:px-2">
             Product Launch Tool
           </p>
 
-          <h2 className="text-4xl lg:text-5xl font-bold bg-gradient-to-r  from-emerald-400 via-emerald-500 to-emerald-600 text-transparent bg-clip-text ">
+          <h2 className="text-4xl  font-bold bg-gradient-to-r  from-emerald-400 via-emerald-500 to-emerald-600 text-transparent bg-clip-text lg:text-4xl ">
             Streamline Your Product
           </h2>
 
-          <h2 className="text-4xl lg:text-5xl font-bold  mt-4 bg-gradient-to-r  from-emerald-400 via-emerald-500 to-emerald-600 text-transparent bg-clip-text ">
-            Launch With Our <span className="bg-gradient-to-r  from-purple-400 via-emerald-500 to-fuchsia-500 text-transparent bg-clip-text mt-2 lg:mt-4">Powerful</span>
+          <h2 className="text-4xl lg:text-4xl font-bold  mt-4 bg-gradient-to-r  from-emerald-400 via-emerald-500 to-emerald-600 text-transparent bg-clip-text ">
+            Launch With Our{" "}
+            <span className="bg-gradient-to-r  from-purple-400 via-emerald-500 to-fuchsia-500 text-transparent bg-clip-text mt-2 lg:mt-4">
+              Powerful
+            </span>
           </h2>
 
-          <h2 className="text-4xl lg:text-5xl font-bold mt-4 bg-gradient-to-r  from-emerald-400 via-emerald-500 to-emerald-600 text-transparent bg-clip-text ">
+          <h2 className="text-4xl lg:text-4xl font-bold mt-4 bg-gradient-to-r  from-emerald-400 via-emerald-500 to-emerald-600 text-transparent bg-clip-text ">
             All-In-One Tool
           </h2>
 
@@ -113,7 +117,7 @@ const Services = () => {
           <img
             src="P4.jpg"
             alt="Product"
-            width={600}
+            width={500}
             height={1000}
             className="bg-gray-100 rounded-2xl"
           />
@@ -121,13 +125,13 @@ const Services = () => {
       </div>
 
       {/* 5th Section */}
-      <div className="flex flex-col lg:flex-row items-center justify-between px-6 py-16 max-w-7xl mx-auto">
+      <div className="flex flex-col lg:flex-row items-center justify-evenly px-6 py-16 max-w-7xl mx-auto">
         {/* Left Image */}
         <div className="mb-10 lg:mb-0">
           <img
             src="P5.jpg"
             alt="Revenue"
-            width={600}
+            width={500}
             height={1000}
             className="bg-gray-100 rounded-2xl"
           />
@@ -135,20 +139,24 @@ const Services = () => {
 
         {/* Right Content */}
         <div className="flex flex-col items-center lg:items-start text-center lg:text-left max-w-xl">
-          <p className="bg-gradient-to-b  from-purple-400 via-violet-400 to-violet-600 text-white rounded-2xl py-1 px-4 mb-6">
+          <p className="bg-gradient-to-b  from-purple-400 via-violet-400 to-violet-600 text-white rounded-2xl py-1
+           px-4 mb-6 lg:px-2">
             Revenue Generation
           </p>
 
-          <h2 className="text-4xl lg:text-5xl font-bold bg-gradient-to-b  from-emerald-400 via-emerald-500 to-emerald-600 text-transparent bg-clip-text">
+          <h2 className="text-4xl lg:text-4xl font-bold bg-gradient-to-b  from-emerald-400 via-emerald-500 to-emerald-600 text-transparent bg-clip-text">
             Accelerate Revenue
           </h2>
 
-          <h2 className="text-4xl lg:text-5xl font-bold bg-gradient-to-b  from-emerald-400 via-emerald-500 to-emerald-600 text-transparent bg-clip-text mt-4">
+          <h2 className="text-4xl lg:text-4xl font-bold bg-gradient-to-b  from-emerald-400 via-emerald-500 to-emerald-600 text-transparent bg-clip-text mt-4">
             Generation With Proven
           </h2>
 
-          <h2 className="text-4xl lg:text-5xl font-bold bg-gradient-to-b  from-emerald-400 via-emerald-500 to-emerald-600 text-transparent bg-clip-text mt-4">
-            <span className="bg-gradient-to-r  from-purple-400 via-emerald-500 to-fuchsia-500 text-transparent bg-clip-text">Strategies</span> And Tools
+          <h2 className="text-4xl lg:text-4xl font-bold bg-gradient-to-b  from-emerald-400 via-emerald-500 to-emerald-600 text-transparent bg-clip-text mt-4">
+            <span className="bg-gradient-to-r  from-purple-400 via-emerald-500 to-fuchsia-500 text-transparent bg-clip-text">
+              Strategies
+            </span>{" "}
+            And Tools
           </h2>
 
           <p className="bg-gradient-to-b  from-purple-500 via-emerald-400 to-emerald-500 text-transparent bg-clip-text mt-6 text-base lg:text-xl leading-relaxed">

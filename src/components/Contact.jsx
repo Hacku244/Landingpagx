@@ -34,7 +34,8 @@ const Contact = () => {
         initial={{ opacity: 0, scale: 0.9 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 0.5 }}
-        className="bg-violet-400 text-white p-8 rounded-2xl text-center w-full max-md:mx-auto lg:max-w-5xl shadow-lg"
+        className="bg-violet-400 text-white p-8 rounded-2xl text-center w-full max-md:mx-auto lg:max-w-4xl 
+        shadow-lg"
       >
         <motion.h2 
           initial={{ y: -20, opacity: 0 }}

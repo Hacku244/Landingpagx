@@ -45,7 +45,7 @@ export default function Pricing() {
 
   return (
     <div
-      className="flex flex-col items-center justify-center min-h-screen    p-8"
+      className="flex flex-col items-center justify-center min-h-screen   p-8 lg:p-6"
       id="pricing"
     >
       {/* Toggle Switch */}
@@ -76,8 +76,9 @@ export default function Pricing() {
 
       {/* Pricing Cards */}
       <div
-        className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-8 w-full max-w-screen-xl md:mx-auto  lg:gap-10 lg:mx-24
-      lg:max-w-screen-xl "
+        className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-8 w-full max-w-screen-xl
+         md:mx-auto  lg:gap-10 lg:mx-auto 
+      lg:max-w-screen-lg "
       >
         {plans.map((plan, index) => (
           <div
@@ -116,7 +117,7 @@ export default function Pricing() {
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 1.3 }}
                 className="bg-violet-700 text-white py-2 px-12 text-xl rounded-4xl hover:bg-indigo-900 transition-colors
-                lg:pt-2 lg:px-18 lg:rounded-4xl  "
+                lg:pt-2 lg:px-8 lg:rounded-4xl  "
               >
                 Upgrade Now
               </motion.button>
