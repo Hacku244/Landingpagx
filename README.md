@@ -1,12 +1,43 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+IneuronX
+A modern and responsive landing page built using React, Tailwind CSS, React Icons, and Framer Motion.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔥 Features
+Fully responsive design
 
-## Expanding the ESLint configuration
+Smooth animations with Framer Motion
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Clean and modern UI
+
+Fast performance with React and Tailwind CSS
+
+🚀 Tech Stack
+React – Frontend framework
+
+Tailwind CSS – Styling
+
+Framer Motion – Animations
+
+React Icons – Icons
+
+🌍 Live Preview
+🔗https://ineuronx.netlify.app/
+
+📷 Screenshots
+![image](https://github.com/user-attachments/assets/22196236-2887-4bd6-9118-68d6ac57bf6c)
+
+
+🛠 Installation
+bash
+Copy
+Edit
+git clone https://github.com/Hacku244/Landingpagx.git  
+cd ineuronx  
+npm install  
+npm run dev  
+🙌 Author
+Raja Suleman (GitHub)
+
+📜 License
+This project is licensed under the MIT License.
