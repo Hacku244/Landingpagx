@@ -1,7 +1,10 @@
 
 
 IneuronX
+
+
 A modern and responsive landing page built using React, Tailwind CSS, React Icons, and Framer Motion.
+
 
 🔥 Features
 Fully responsive design
@@ -29,9 +32,7 @@ React Icons – Icons
 
 
 🛠 Installation
-bash
-Copy
-Edit
+
 git clone https://github.com/Hacku244/Landingpagx.git  
 cd ineuronx  
 npm install  
